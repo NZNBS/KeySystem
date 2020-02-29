@@ -87,8 +87,25 @@
     iget-object v0, p0, Lcom/unity3d/player/UnityPlayerActivity;->mUnityPlayer:Lcom/unity3d/player/UnityPlayer;
 
     invoke-virtual {v0}, Lcom/unity3d/player/UnityPlayer;->requestFocus()Z
+    
+    
+    
+    
+    
+    
+    
+    
+    //ADD THIS LINE
+    invoke-static {p0}, Lcom/mreoz/MRZKey;->LoadMe(Landroid/content/Context;)V
+    //FOR INYECT
 
-    invoke-static {p0}, Lcom/aegis/AegisLoader;->LoadMe(Landroid/content/Context;)V
+
+
+
+
+
+
+
 
     return-void
 .end method

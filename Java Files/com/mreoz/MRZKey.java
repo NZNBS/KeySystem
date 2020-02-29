@@ -70,6 +70,7 @@ public class MRZKey {
                             PreferenceManager.getDefaultSharedPreferences(ctx).edit().putString("key", mrz).apply();
                         param1DialogInterface.cancel();
                         tos.show();
+                        startFloater(ctx);
                         return;
                     }
                     else{
